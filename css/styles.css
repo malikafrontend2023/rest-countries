@@ -57,6 +57,11 @@ html {
   box-sizing: inherit;
 }
 
+*:focus {
+  outline: 3px dotted #246a1d;
+  outline-offset: 2px;
+}
+
 body {
   display: flex;
   flex-direction: column;
